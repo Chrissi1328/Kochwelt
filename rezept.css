@@ -1,0 +1,481 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 8px 32px;
+    box-shadow: 0px 1px 8px  rgba(0, 0, 0, 0.2);
+}
+
+#header-div{
+    height: 76px;
+}
+
+#header-img{
+    width: 240px;
+    height: 76px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 25px;
+}
+
+.header-menu a {
+    color: gray;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.header-menu a:hover {
+    color: green;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+.b_menu {
+    display: none;
+}
+
+#nav-rezept{
+    text-decoration: none;
+    color: green;
+}
+
+#h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#salad{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#p-div{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#clock-p{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #80808061;
+    width: 85px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+#clock{
+    width: 15px;
+}
+
+#level-p{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #80808061;
+    width: 85px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+#level{
+    width: 15px;
+}
+
+#calender-p{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #80808061;
+    width: 110px;
+    border-radius: 10px;
+}
+
+#calender{
+    width: 15px;
+}
+
+#zutaten-div{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+#p-zutaten{
+    margin-left: 40px;
+    font-size: 32px;
+}
+
+#input-zutaten{
+    width: 150px;
+    margin-left: 15px;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+#button-zutaten{
+    background-color: green;
+    color: white;
+    width: 150px;
+    border: 0;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#table{
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 24px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+tr:nth-child(odd){
+    background-color: #80808061;
+}
+
+td:first-child{
+    border-radius: 10px 0 0 10px;
+}
+
+td:last-child{
+    border-radius: 0 10px 10px 0;
+}
+
+#tabledata{
+    width: 50px;
+    padding: 10px;
+}
+
+#gewürz{
+    width: 200px;
+    padding: 10px;
+}
+
+
+.span{
+    margin-left: 10px;
+}
+
+#h2{
+    font-size: 40px;
+    margin-top: 32px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+#Zubereitung{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#p-Zeit{
+    background-color: #80808061;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+#p-gesamtzeit{
+    background-color: #80808061;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#p-Zubereitung{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#p-Erstellung{
+    margin-left: 40px;
+    margin-top: 24px;
+    font-size: 25px;
+}
+
+#div-Ende{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#profile{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+#name{
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 100px;
+    box-shadow: 0px 1px 8px  rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 180px;
+}
+
+.logo_small {
+    display: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 650;
+}
+
+footer a:hover {
+    color: green;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+@media (max-width: 840px){
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 40px;
+    }
+
+    .header-menu {
+        position: absolute;
+        top: 80px;
+        background-color: white;
+        border-radius: 8px;
+        padding-bottom: 4px;
+        border-color: green;
+        box-shadow: 0px 0px 2px 1px green;
+        display: none;
+        width: 150px;
+
+    }
+
+    .header-menu a {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .b_menu {
+        display: unset;
+        cursor: pointer;
+        width: 44px;
+        height: 40px;
+        background: green;
+        display: block;
+        border-radius: 4px;
+    }
+
+    .lines {
+        width: 20px;
+        height: 2px;
+        margin: 8px 12px;
+        border-radius: 1px;
+        background-color: white;
+    }
+
+    #mobile{
+        height: 80px;
+    }
+}
+
+@media (max-width: 740px) {
+
+    #header-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 700px){
+
+    #h1{
+        font-size: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #p-Zubereitung{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .logo {
+        display: none;
+    }
+
+    .logo_small {
+        display: unset;
+        width: 36px;
+    }
+
+    footer {
+        height: 92px;
+        padding: 0px 24px;
+    }
+}
+
+@media (max-width: 580px) {
+
+    #p-zutaten{
+        font-size: 20px;
+    }
+
+    #input-zutaten{
+        font-size: 20px;
+    }
+
+    #button-zutaten{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    #h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    #zutaten-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #p-zutaten{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #input-zutaten{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 516px) {
+
+    #logo {
+        display: none;
+    }
+
+    #logo_small {
+        display: unset;
+        width: 36px;
+    }
+    footer {
+        height: 92px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #clock-p{
+        margin-right: 20px;
+    }
+
+    #level-p{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    #salad{
+        height: 200px;
+        width: 100%;
+    }
+
+    #Zubereitung{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #p-gesamtzeit{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    #h1{
+        font-size: 20px;
+    }
+
+    #p-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #clock-p{
+        margin-bottom: 10px;
+    }
+
+    #level-p{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    #table{
+        padding-right: 4px;
+        padding-left: 4px;
+        text-align: center;
+    }
+
+    #p-Erstellung{
+        width: 250px;
+    }
+}
