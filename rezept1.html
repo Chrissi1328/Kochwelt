@@ -1,121 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pancakes mit Blaubeeren</title>
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="rezept.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="rezept1.css">
-    <script defer src="./rezept1.js"></script>
-    <title>Kochwelt - Rezept des Tages</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script defer src="rezept1.js"></script>
 </head>
+
 <body>
-    
-</body>
-</html>
-<header>
-    <div id="header-div">
-        <a href="https://kochwelt-353.developerakademie.net/Jasmin/kochwelt_homepage.html"><img id="header-img" src="./03 - Gruppenarbeit - Kochwelt/logo.png"></a>
-    </div>
-    <div class="header-menu" id="mobile">
-        <a href="https://kochwelt-353.developerakademie.net/Jasmin/kochwelt_homepage.html">Start</a>
-        <a href="https://kochwelt-353.developerakademie.net/Chris/rezept.html" target="_blank">Rezept des Tages</a>
-        <a href="https://kochwelt-353.developerakademie.net/Kevin/index.html" target="_blank">Kontakt</a>
-        <a href="https://kochwelt-353.developerakademie.net/Kevin//impressum.html" target="_blank">Impressum</a>
-    </div>
-    <a class="b_menu" onclick="burger()">
-        <p class="lines"></p>
-        <p class="lines"></p>
-        <p class="lines"></p>
-    </a>
-</header>
+    <header>
+        <div class="pos">
+            <div>
+                <a href="https://kochwelt-353.developerakademie.net/kochwelt/kochwelt_homepage.html"
+                    target="_parent"><img src="/img/logo.png"></a>
+            </div>
+            <div class="header-menu" id="mobile">
+                <a href="https://kochwelt-353.developerakademie.net/kochwelt/kochwelt_homepage.html"
+                    target="_parent">Start</a>
+                <a id="nav" href="https://kochwelt-353.developerakademie.net/Chris/rezept.html" target="_parent">Rezept
+                    des Tages</a>
+                <a href="https://kochwelt-353.developerakademie.net/kochwelt/contact.html" target="_parent">Kontakt</a>
+                <a href="https://kochwelt-353.developerakademie.net/kochwelt/impressum.html"
+                    target="_parent">Impressum</a>
+            </div>
+            <a class="b_menu" onclick="burger()">
+                <p class="lines"></p>
+                <p class="lines"></p>
+                <p class="lines"></p>
+            </a>
+        </div>
+    </header>
 
-<div>
-    <h1 id="h1">Pancakes mit Blaubeeren</h1>
-    <img id="salad" src="./img/pancake-7811889_1280.jpg" alt="">
-    <div id="p-div">
-        <p id="clock-p">
-        <img id="clock" src="./03 - Gruppenarbeit - Kochwelt/img/icons/clock-regular.svg" alt="">
-        20 Min.
-    </p>
-    <p id="level-p">
-        <img id="level" src="./03 - Gruppenarbeit - Kochwelt/img/icons/brain-solid.svg" alt="">
-        simple
-    </p>
-    <p id="calender-p">
-        <img id="calender" src="./03 - Gruppenarbeit - Kochwelt/img/icons/calendar-alt-regular.svg" alt="">
-        28.09.2024
-    </p>
-</div>
-</div>
-<div id="zutaten-div">
-    <p id="p-zutaten">Zutaten für</p>
-    <input id="input-zutaten" type="number" value="2">
-    <button id="button-zutaten">Portionen</button>
-    </div>
-    <table id="table">
-    <tr>
-        <td id="tabledata">
-            <span class="span" id="table-span">2</span></td><td>Ei(er)</td>
-    </tr>
-<tr>
-    <td id="tabledata">
-        <span class="span" id="table-span1">1</span><span>EL</span><td>Butter</td>
-    </td>
-</tr>
-<tr>
-    <td id="tabledata">
-        <span class="span" id="table-span2">3</span><span>EL</span><td>Zucker</td>
-    </td>
-</tr>
-<tr>
-    <td id="tabledata">
-        <span class="span" id="table-span3">200</span><span>ML</span><td>Milch</td>
-    </td>
-</tr>
-<tr>
-    <td id="tabledata">
-        <span class="span" id="table-span4">150</span><span>g</span><td>Mehl</td>
-    </td>
-</tr>
-<tr>
-    <td id="tabledata">
-        <span class="span" id="table-span5">1</span><span>Msp</span><td>Backpulver</td>
-    </td>
-</tr>
-<tr>
-    <td class="span" id="gewürz">Prise</td><td>Salz</td>
-</tr>
-<tr>
-    <td id="tabledata">
-        <span class="span" id="table-span6">100</span><span>g</span><td>Heidelbeeren (Blaubeeren) <br> Puderzucker, zum Bestreuen </td>
-    </td>
-</tr>
-</table>
+    <section_1>
+        <div class="main-container">
+            <h1>Pancakes mit Blaubeeren</h1>
+            <img class="img" src="/img/pan.jpg">
+            <div class="p-div">
+                <div class="icons">
+                    <div class="icon">
+                        <img src="/img/icons/clock-regular.svg">
+                        <p>20 Min.</p>
+                    </div>
+                    <div class="icon">
+                        <img src="/img/icons/brain-solid.svg">
+                        <p>simpel</p>
+                    </div>
+                    <div class="icon">
+                        <img src="/img/icons/calendar-alt-regular.svg">
+                        <p>01.10.2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section_1>
 
-<h2 id="h2">Zubereitung</h2>
-<div id="Zubereitung">
-<p id="p-Zeit">
-    <img id="clock" src="./03 - Gruppenarbeit - Kochwelt/img/icons/clock-regular.svg" alt="">
-    ca. 20 Minuten
-</p>
-<p id="p-gesamtzeit">
-    <img id="clock" src="./03 - Gruppenarbeit - Kochwelt/img/icons/clock-regular.svg" alt="">
-    Gesamtzeit ca. 20 Minuten
-</p>
-</div>
-<p id="p-Zubereitung">Butter und Zucker cremig schlagen. Eier nacheinander zufügen. Milch unterrühren. Restliche Zutaten zufügen und glatt rühren. Den Teig mit einer kleinen Kelle in eine Pfanne geben und die Blaubeeren darauf verteilen. Zwischendurch wenden, sodass die Pancakes von beiden Seiten goldgelb sind. Mit etwas Öl von beiden Seiten goldgelb backen.
-    Mit Puderzucker bestreuen und heiß servieren.</p>
-<p id="p-Erstellung">Rezept erstellt von Christian </p>
-<div id="div-Ende">
-<img id="profile" src="./img/IMG-20240525-WA0007.jpg" alt="">
-<p id="name">Christian</p>
-</div>
-<footer>
-    <img class="logo" src="/img/logo.png">
-    <img class="logo_small" src="./03 - Gruppenarbeit - Kochwelt/img/logo_small.png">
-    <a class="data-protection" href="https://kochwelt-353.developerakademie.net/Kevin/datenschutzerklärung" target="_blank">Datenschutzerklärung</a>
-</footer>
+    <section_2>
+        <div class="input-div">
+            <div class="portions">
+                <p>Zutaten für:</p>
+                <div class="in">
+                    <input id="people" type="number" value="2" min="1" max="10">
+                    <button id="btn" onclick="console.log(button)">Portionen</button>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <td class="bgd1">
+                        <p type="number" id="table-p">2</p>
+                        <p>Ei(er)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bgd2">
+                        <p type="number" id="table-p1">1</p>
+                        <p>EL Butter</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bgd1">
+                        <p type="number" id="table-p2">3</p>
+                        <p>EL Zucker</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bgd2">
+                        <p type="number" id="table-p3">200</p>
+                        <p>ml Milch</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bgd1">
+                        <p type="number" id="table-p4">150</p>
+                        <p>g Mehl</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bgd2">
+                        <p type="number" id="table-p5">1</p>
+                        <p>Msp. Backpulver</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bgd1">
+                        <p type="number" id="table-p6">100</p>
+                        <p>g Heidelbeeren (Blaubeeren) <br> Puderzucker, zum Bestreuen</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bgd2">
+                        <p type="number">Prise</p>
+                        <p>Salz</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section_2>
+
+    <section_3>
+        <div class="main-container">
+            <h1>Zubereitung</h1>
+            <div class="zub">
+                <div class="icon2">
+                    <img src="/img/icons/clock-regular.svg">
+                    <p id="dauer">Ca.20 Minuten</p>
+                </div>
+                <p>Butter und Zucker cremig schlagen. Eier nacheinander zufügen. Milch unterrühren. Restliche Zutaten
+                    zufügen und glatt rühren. Den Teig mit einer kleinen Kelle in eine Pfanne geben und die Blaubeeren
+                    darauf verteilen. Zwischendurch wenden, sodass die Pancakes von beiden Seiten goldgelb sind. Mit
+                    etwas Öl von beiden Seiten goldgelb backen.
+                    Mit Puderzucker bestreuen und heiß servieren.
+                </p>
+            </div>
+        </div>
+
+
+    </section_3>
+
+    <section_4>
+        <div class="last-div">
+            <h3>Rezept erstellt von</h3>
+            <div class="profile">
+                <img src="/img/IMG-20240525-WA0007.jpg">
+                <p>Christian</p>
+            </div>
+        </div>
+
+
+    </section_4>
+
+    <footer>
+        <div class="pos2">
+            <img class="logo" src="/img/logo.png">
+            <img class="logo_small" src="/img/logo_small.png">
+            <a href="https://kochwelt-353.developerakademie.net/kochwelt/datenschutzerkl%C3%A4rung.html"
+                target="_parent">Datenschutzerklärung</a>
+        </div>
+    </footer>
 </body>
 </html>
