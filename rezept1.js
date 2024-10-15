@@ -18,21 +18,21 @@ function rechner() {
     number = input.value
     if (number < 0) {
         return;
-      }
-      table.innerText =  (input.value) *2 /2;
-      table1.innerText = (input.value) /2;
-      table2.innerText = (input.value) *3 /2;
-      table3.innerText = (input.value) *200 /2;
-      table4.innerText = (input.value) *150 /2;
-      table5.innerText = (input.value) /2;
-      table6.innerText = (input.value) *100 /2;
+    }
+    table.innerText = (input.value) * 2 / 2;
+    table1.innerText = (input.value) / 2;
+    table2.innerText = (input.value) * 3 / 2;
+    table3.innerText = (input.value) * 200 / 2;
+    table4.innerText = (input.value) * 150 / 2;
+    table5.innerText = (input.value) / 2;
+    table6.innerText = (input.value) * 100 / 2;
 }
 
 button.addEventListener("click", rechner)
 
 
 function burger() {
-   var menu = document.getElementById("mobile");
+    var menu = document.getElementById("mobile");
     if (menu.style.display == "block") {
         menu.style.display = "none";
     } else {
